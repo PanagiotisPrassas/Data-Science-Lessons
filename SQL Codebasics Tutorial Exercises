@@ -90,3 +90,13 @@ ORDER BY cnt DESC
 
 ------------------------------------------------------------------------------------------------
 
+Exercise - Calculated Columns (IF, CASE, YEAR, CURYEAR)
+Write SQL queries for the following,
+
+1. Print profit % for all the movies
+
+SELECT (revenue-budget) as profit,
+	(revenue-budget)*100/budget as profit_percent
+ FROM moviesdb.financials;
+
+------------------------------------------------------------------------------------------------
